@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.js"></script>
+    <script src="client.js"></script>
+</head>
+
+<body>
+    <div id="inputFields">
+        New Group <input type="text" id="newGroup">
+        New Meetup <input type="text" id="newDate">
+        <button type="button" id="addMeetup">Add Meetup</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Group</th>
+                <th>Next Meetup</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>JS MN</td>
+                <td>10/28/2019</td>
+                <td><button class="delete">Delete</button></td>
+            </tr>
+            <tr>
+                <td>React MPLS</td>
+                <td>10/22/2019</td>
+                <td><button class="delete">Delete</button></td>
+            </tr>
+            <tr>
+                <td>AWS_MN</td>
+                <td>10/9/2019</td>
+                <td><button class="delete">Delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 id="numberOfMeetups">Total Meetups: 3</h2>
+</body>
+
+</html>
